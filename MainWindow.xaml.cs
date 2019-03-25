@@ -52,12 +52,12 @@ namespace Fibonacci_sequence_drawing
        // int fibn;
    //     int.TryParse (fib,out int fibn);
   //      result = Convert.ToInt32(fib);
- //       Rectangle r = new Rectangle();
- //       r.height = next;
- //       r.width = fib.ToConvert;
-  //      canvas.Children.Add(r);
-  //      Canvas.SetTop (r, );
-  //      Canvas.SetLeft (r, );
+        Rectangle r = new Rectangle();
+        r.height = next;
+        r.width = fib.ToConvert;
+        canvas.Children.Add(r);
+        Canvas.SetTop (r, );
+        Canvas.SetLeft (r, );
     }
 }
 
